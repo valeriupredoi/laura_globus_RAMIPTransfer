@@ -90,3 +90,36 @@ Bytes Per Second:             105909886
 
 - historical 1beb8098-af45-11f0-9fba-027493648695 `/gws/nopw/j04/ramip/RAMIP/MIROC6` (all ensembles dumped there)
 - piClim-370 423c767c-affe-11f0-9d5e-027493648695 `/gws/nopw/j04/ramip/RAMIP/MIROC6_V/piClim-370` (correct DRS structure)
+
+
+## Transfer final logs
+
+- historical (23 October 2025, 1200H):
+```
+(globus-env) valeriu@valeriu-PORTEGE-Z30-C:~$ globus task show 1beb8098-af45-11f0-9fba-027493648695
+Label:                        None
+Task ID:                      1beb8098-af45-11f0-9fba-027493648695
+Is Paused:                    False
+Type:                         TRANSFER
+Directories:                  3103
+Files:                        1004
+Status:                       ACTIVE
+Request Time:                 2025-10-22T12:46:22+00:00
+Faults:                       63
+Total Subtasks:               4108
+Subtasks Succeeded:           4100
+Subtasks Pending:             8
+Subtasks Retrying:            0
+Subtasks Failed:              0
+Subtasks Canceled:            0
+Subtasks Expired:             0
+Subtasks with Skipped Errors: 0
+Deadline:                     2025-10-26T06:30:12+00:00
+Details:                      PERMISSION_DENIED
+Source Endpoint:              ramip
+Source Endpoint ID:           5d7a0948-af42-11f0-b5e1-0affdd0cd947
+Destination Endpoint:         JASMIN Default Collection
+Destination Endpoint ID:      a2f53b7f-1b4e-4dce-9b7c-349ae760fee0
+Bytes Transferred:            5150263808476
+Bytes Per Second:             64541290
+```
