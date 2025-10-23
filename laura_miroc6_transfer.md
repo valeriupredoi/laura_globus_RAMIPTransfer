@@ -88,9 +88,15 @@ Bytes Per Second:             105909886
 
 ## Transfer jobs
 
+Web app: <https://app.globus.org/activity>
+
 Incorrect DRS structure in `/gws/nopw/j04/ramip/RAMIP/MIROC6` (all historical exp ensembles dumped there).
 
-- historical 1beb8098-af45-11f0-9fba-027493648695 8 jobs pending
+- historical 1beb8098-af45-11f0-9fba-027493648695 8 jobs pending:
+  - view job <https://app.globus.org/activity/1beb8098-af45-11f0-9fba-027493648695/overview>
+  - jobs failed with FTP: permission denied
+  - 996/1004 files correctly transferred = 5.15TB
+  - effective speed: 57Mbps
 
 Correct DRS structure in `/gws/nopw/j04/ramip/RAMIP/MIROC6_V/`
 
@@ -99,9 +105,12 @@ Correct DRS structure in `/gws/nopw/j04/ramip/RAMIP/MIROC6_V/`
 - piClim-370-afr126aer 8496e223-b003-11f0-acbb-027493648695 SUCCEEDED
 - piClim-370-eas126aer dfa15443-b005-11f0-af56-0e092d85c59b SUCCEEDED
 - piClim-370-nae126aer 53710b85-b008-11f0-af47-0e092d85c59b SUCCEEDED
-- piClim-370-sas126aer ad4eb291-b00a-11f0-8a27-0e092d85c59b
+- piClim-370-sas126aer ad4eb291-b00a-11f0-8a27-0e092d85c59b SUCCEEDED
+- ssp370               d46fe836-b00d-11f0-bf4e-0e092d85c59b
+- ssp370-126aer        31ca05bd-b015-11f0-a7c4-027493648695
+- ssp370-afr126aer     6b805759-b015-11f0-8311-0affdd0cd947
 
-## Transfer final logs
+## Unfinished transfers final logs
 
 - historical (23 October 2025, 1200H):
 ```
