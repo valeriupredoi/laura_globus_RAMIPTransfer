@@ -85,3 +85,8 @@ Destination Endpoint ID:      a2f53b7f-1b4e-4dce-9b7c-349ae760fee0
 Bytes Transferred:            124470165504
 Bytes Per Second:             105909886
 ```
+
+## Transfer jobs
+
+- historical 1beb8098-af45-11f0-9fba-027493648695 `/gws/nopw/j04/ramip/RAMIP/MIROC6` (all ensembles dumped there)
+- piClim-370 423c767c-affe-11f0-9d5e-027493648695 `/gws/nopw/j04/ramip/RAMIP/MIROC6_V/piClim-370` (correct DRS structure)
