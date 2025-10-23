@@ -97,6 +97,7 @@ Incorrect DRS structure in `/gws/nopw/j04/ramip/RAMIP/MIROC6` (all historical ex
   - jobs failed with FTP: permission denied
   - 996/1004 files correctly transferred = 5.15TB
   - effective speed: 57Mbps
+  - all untransferred files are eSATA system files eg `RAMIP/MIROC/MIROC6/historical/r3i1p1f1/6hrPlev/pr/gn/v20250925/.nfs0000004c803581cf0000088b`
 
 Correct DRS structure in `/gws/nopw/j04/ramip/RAMIP/MIROC6_V/`
 
