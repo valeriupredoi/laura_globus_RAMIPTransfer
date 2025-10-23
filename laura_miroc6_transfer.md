@@ -88,13 +88,18 @@ Bytes Per Second:             105909886
 
 ## Transfer jobs
 
-- historical 1beb8098-af45-11f0-9fba-027493648695 `/gws/nopw/j04/ramip/RAMIP/MIROC6` (all ensembles dumped there) 8 jobs pending
-- piClim-370 423c767c-affe-11f0-9d5e-027493648695 `/gws/nopw/j04/ramip/RAMIP/MIROC6_V/piClim-370` (correct DRS structure) SUCCEEDED
-- piClim-370-126aer 1cadefa2-b001-11f0-933f-0e092d85c59b `/gws/nopw/j04/ramip/RAMIP/MIROC6_V/piClim-370-126aer` (correct DRS structure, SUCCEEDED)
+Incorrect DRS structure in `/gws/nopw/j04/ramip/RAMIP/MIROC6` (all historical exp ensembles dumped there).
+
+- historical 1beb8098-af45-11f0-9fba-027493648695 8 jobs pending
+
+Correct DRS structure in `/gws/nopw/j04/ramip/RAMIP/MIROC6_V/`
+
+- piClim-370           423c767c-affe-11f0-9d5e-027493648695 SUCCEEDED
+- piClim-370-126aer    1cadefa2-b001-11f0-933f-0e092d85c59b SUCCEEDED
 - piClim-370-afr126aer 8496e223-b003-11f0-acbb-027493648695 SUCCEEDED
 - piClim-370-eas126aer dfa15443-b005-11f0-af56-0e092d85c59b SUCCEEDED
-- piClim-370-nae126aer 53710b85-b008-11f0-af47-0e092d85c59b
-
+- piClim-370-nae126aer 53710b85-b008-11f0-af47-0e092d85c59b SUCCEEDED
+- piClim-370-sas126aer ad4eb291-b00a-11f0-8a27-0e092d85c59b
 
 ## Transfer final logs
 
