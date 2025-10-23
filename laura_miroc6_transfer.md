@@ -107,9 +107,15 @@ Correct DRS structure in `/gws/nopw/j04/ramip/RAMIP/MIROC6_V/`
 - piClim-370-eas126aer dfa15443-b005-11f0-af56-0e092d85c59b SUCCEEDED
 - piClim-370-nae126aer 53710b85-b008-11f0-af47-0e092d85c59b SUCCEEDED
 - piClim-370-sas126aer ad4eb291-b00a-11f0-8a27-0e092d85c59b SUCCEEDED
-- ssp370               d46fe836-b00d-11f0-bf4e-0e092d85c59b
-- ssp370-126aer        31ca05bd-b015-11f0-a7c4-027493648695
-- ssp370-afr126aer     6b805759-b015-11f0-8311-0affdd0cd947
+- ssp370               d46fe836-b00d-11f0-bf4e-0e092d85c59b RUNNING
+- ssp370-126aer        31ca05bd-b015-11f0-a7c4-027493648695 RUNNING
+- ssp370-afr126aer     6b805759-b015-11f0-8311-0affdd0cd947 RUNNING
+- ssp370-asia126aer
+- ssp370-eas126aer
+- ssp370-nae126aer
+- ssp370-saf126ca
+- ssp370-sas126aer
+- ssp370-sas126ca
 
 ## Unfinished transfers final logs
 
