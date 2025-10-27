@@ -117,6 +117,11 @@ Correct DRS structure in `/gws/nopw/j04/ramip/RAMIP/MIROC6_V/`
 - ssp370-saf126ca      04f29168-b323-11f0-91fe-027493648695 SUCCEEDED
 - ssp370-sas126aer     8b896486-b0ca-11f0-932d-0e092d85c59b SUCCEEDED
 - ssp370-sas126ca      f5c54480-b331-11f0-ba2a-0e092d85c59b KILLED - r6i1p1f1 is "Permission denied" on HDD
+  - r1: 2d8a7480-b350-11f0-bf14-0e092d85c59b
+  - r2: 44e7ea7e-b350-11f0-8515-0e092d85c59b
+  - r3: 57095ea9-b350-11f0-9f03-0e092d85c59b
+  - r4: 67a55511-b350-11f0-9975-0affdd0cd947
+  - r5: 77fbd4b5-b350-11f0-854c-027493648695 KILLED - CFDay "Permission denied" on HDD
 
 ## Unfinished transfers final logs
 
