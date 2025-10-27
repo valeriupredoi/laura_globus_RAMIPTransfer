@@ -111,17 +111,17 @@ Correct DRS structure in `/gws/nopw/j04/ramip/RAMIP/MIROC6_V/`
 - ssp370               d46fe836-b00d-11f0-bf4e-0e092d85c59b SUCCEEDED
 - ssp370-126aer        31ca05bd-b015-11f0-a7c4-027493648695 SUCCEEDED
 - ssp370-afr126aer     6b805759-b015-11f0-8311-0affdd0cd947 SUCCEEDED
-- ssp370-asia126aer    e28de4ff-b322-11f0-9588-0e092d85c59b RUNNING
+- ssp370-asia126aer    e28de4ff-b322-11f0-9588-0e092d85c59b RUNNING (577/581 files; .nfs files with "Permission denied")
 - ssp370-eas126aer     2af7b1a6-b0ca-11f0-8994-027493648695 SUCCEEDED
-- ssp370-nae126aer     5e2e646f-b0ca-11f0-83a3-027493648695 RUNNING (very slowly: 895/1020 files by 27/10/2025 10:47)
+- ssp370-nae126aer     5e2e646f-b0ca-11f0-83a3-027493648695 RUNNING (very slowly: 939/1020 files by 27/10/2025 19:25)
 - ssp370-saf126ca      04f29168-b323-11f0-91fe-027493648695 SUCCEEDED
 - ssp370-sas126aer     8b896486-b0ca-11f0-932d-0e092d85c59b SUCCEEDED
 - ssp370-sas126ca      f5c54480-b331-11f0-ba2a-0e092d85c59b KILLED - r6i1p1f1 is "Permission denied" on HDD
-  - r1: 2d8a7480-b350-11f0-bf14-0e092d85c59b RUNNING
-  - r2: 44e7ea7e-b350-11f0-8515-0e092d85c59b RUNNING
-  - r3: 57095ea9-b350-11f0-9f03-0e092d85c59b SUCCEEDED
-  - r4: 67a55511-b350-11f0-9975-0affdd0cd947 SUCCEEDED
-  - r5: 77fbd4b5-b350-11f0-854c-027493648695 KILLED - CFDay "Permission denied" on HDD
+  - r1i1p1f1: 2d8a7480-b350-11f0-bf14-0e092d85c59b SUCCEEDED
+  - r2i1p1f1: 44e7ea7e-b350-11f0-8515-0e092d85c59b SUCCEEDED
+  - r3i1p1f1: 57095ea9-b350-11f0-9f03-0e092d85c59b SUCCEEDED
+  - r4i1p1f1: 67a55511-b350-11f0-9975-0affdd0cd947 SUCCEEDED
+  - r5i1p1f1 needs manual transfer (at least CFDay is "Permission denied" on HDD)
 
 ## Unfinished transfers final logs
 
