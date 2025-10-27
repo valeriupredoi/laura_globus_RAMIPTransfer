@@ -114,9 +114,9 @@ Correct DRS structure in `/gws/nopw/j04/ramip/RAMIP/MIROC6_V/`
 - ssp370-asia126aer    e28de4ff-b322-11f0-9588-0e092d85c59b RUNNING
 - ssp370-eas126aer     2af7b1a6-b0ca-11f0-8994-027493648695 SUCCEEDED
 - ssp370-nae126aer     5e2e646f-b0ca-11f0-83a3-027493648695 RUNNING (very slowly: 895/1020 files by 27/10/2025 10:47)
-- ssp370-saf126ca      04f29168-b323-11f0-91fe-027493648695 RUNNING
+- ssp370-saf126ca      04f29168-b323-11f0-91fe-027493648695 SUCCEEDED
 - ssp370-sas126aer     8b896486-b0ca-11f0-932d-0e092d85c59b SUCCEEDED
-- ssp370-sas126ca
+- ssp370-sas126ca      f5c54480-b331-11f0-ba2a-0e092d85c59b RUNNING
 
 ## Unfinished transfers final logs
 
