@@ -111,17 +111,33 @@ Correct DRS structure in `/gws/nopw/j04/ramip/RAMIP/MIROC6_V/`
 - ssp370               d46fe836-b00d-11f0-bf4e-0e092d85c59b SUCCEEDED
 - ssp370-126aer        31ca05bd-b015-11f0-a7c4-027493648695 SUCCEEDED
 - ssp370-afr126aer     6b805759-b015-11f0-8311-0affdd0cd947 SUCCEEDED
-- ssp370-asia126aer    e28de4ff-b322-11f0-9588-0e092d85c59b RUNNING (577/581 files; .nfs files with "Permission denied")
+- ssp370-asia126aer    e28de4ff-b322-11f0-9588-0e092d85c59b KILLED
+  - 577/581 files transferred;
+  - only missing are 4 x .nfs files with "Permission denied"
+  - assume complete (1.33TB transferred)
 - ssp370-eas126aer     2af7b1a6-b0ca-11f0-8994-027493648695 SUCCEEDED
-- ssp370-nae126aer     5e2e646f-b0ca-11f0-83a3-027493648695 RUNNING (very slowly: 981/1020 files by 28/10/2025 09:25)
+- ssp370-nae126aer     5e2e646f-b0ca-11f0-83a3-027493648695 RUNNING (very slowly: 987/1020 files by 28/10/2025 12:05pm)
 - ssp370-saf126ca      04f29168-b323-11f0-91fe-027493648695 SUCCEEDED
 - ssp370-sas126aer     8b896486-b0ca-11f0-932d-0e092d85c59b SUCCEEDED
-- ssp370-sas126ca      f5c54480-b331-11f0-ba2a-0e092d85c59b KILLED - r6i1p1f1 is "Permission denied" on HDD
+- ssp370-sas126ca      f5c54480-b331-11f0-ba2a-0e092d85c59b KILLED
+  - r6i1p1f1 is "Permission denied" on HDD; individual exps transferred:
   - r1i1p1f1: 2d8a7480-b350-11f0-bf14-0e092d85c59b SUCCEEDED
   - r2i1p1f1: 44e7ea7e-b350-11f0-8515-0e092d85c59b SUCCEEDED
   - r3i1p1f1: 57095ea9-b350-11f0-9f03-0e092d85c59b SUCCEEDED
   - r4i1p1f1: 67a55511-b350-11f0-9975-0affdd0cd947 SUCCEEDED
-  - r5i1p1f1 needs manual transfer (at least CFDay is "Permission denied" on HDD)
+  - r5i1p1f1: unable to complete; needs manual transfer (at least CFDay is "Permission denied" on HDD)
+
+
+## Problems and TODOs
+
+Apart form these listed below, all other transfers have succeeded with no issues:
+
+- historical: problem: 999/1004 files correctly transferred = 5.15TB; 5 x .nfs files untransferred
+- ssp370-asia126aer: problem: 577/581 files correctly transferred = 1.33TB; 4 x .nfs files untransferred
+- ssp370-sas126ca: TODO: 2 x experiments need manual transfer (others SUCCEEDED):
+  - r5i1p1f1 needs manual transfer
+  - r6i1p1f1 needs manual transfer
+- ssp370-nae126aer (5e2e646f-b0ca-11f0-83a3-027493648695 RUNNING): very slowly: 987/1020 files = 2.29TB transferred by 28/10/2025 12:05pm)
 
 ## Unfinished transfers final logs
 
