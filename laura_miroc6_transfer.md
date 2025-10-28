@@ -123,8 +123,8 @@ Correct DRS structure in `/gws/nopw/j04/ramip/RAMIP/MIROC6_V/`
   - r6i1p1f1 is "Permission denied" on HDD; individual exps transferred:
   - r1i1p1f1: 2d8a7480-b350-11f0-bf14-0e092d85c59b SUCCEEDED
   - r2i1p1f1: 44e7ea7e-b350-11f0-8515-0e092d85c59b SUCCEEDED
-  - r3i1p1f1: 57095ea9-b350-11f0-9f03-0e092d85c59b SUCCEEDED
-  - r4i1p1f1: 67a55511-b350-11f0-9975-0affdd0cd947 SUCCEEDED
+  - r3i1p1f1: 57095ea9-b350-11f0-9f03-0e092d85c59b SUCCEEDED - only directories, no files!
+  - r4i1p1f1: 67a55511-b350-11f0-9975-0affdd0cd947 SUCCEEDED - only directories, no files!
   - r5i1p1f1: unable to complete; needs manual transfer (at least CFDay is "Permission denied" on HDD)
 
 
@@ -134,10 +134,14 @@ Apart form these listed below, all other transfers have succeeded with no issues
 
 - historical: problem: 999/1004 files correctly transferred = 5.15TB; 5 x .nfs files untransferred
 - ssp370-asia126aer: problem: 577/581 files correctly transferred = 1.33TB; 4 x .nfs files untransferred
-- ssp370-sas126ca: TODO: 2 x experiments need manual transfer (others SUCCEEDED):
-  - r5i1p1f1 needs manual transfer
-  - r6i1p1f1 needs manual transfer
+- ssp370-sas126ca: TODO: 2 x experiments need manual transfer (others SUCCEEDED, but two have no files):
+  - r3i1p1f1: SUCCEEDED - only directories, no files, on HDD!
+  - r4i1p1f1: SUCCEEDED - only directories, no files, on HDD!
+  - r5i1p1f1 needs manual transfer (permission denied on HDD)
+  - r6i1p1f1 needs manual transfer (permission denied on HDD)
 - ssp370-nae126aer (5e2e646f-b0ca-11f0-83a3-027493648695 RUNNING): very slowly: 987/1020 files = 2.29TB transferred by 28/10/2025 12:05pm)
+
+Total amounts trnsferred: 5.15 + 0.075 + 0.070 + 0.070 + 0.070 + 0.070 + 0.071 + 2.21 + 2.25 + 2.21 + 2.21 + 2.29 + 2.21 + 1.33 + 0.222 + 0.222 + 0.218 +0 + 0 = **20.948TB**
 
 ## Unfinished transfers final logs
 
