@@ -116,7 +116,7 @@ Correct DRS structure in `/gws/nopw/j04/ramip/RAMIP/MIROC6_V/`
   - only missing are 4 x .nfs files with "Permission denied"
   - assume complete (1.33TB transferred)
 - ssp370-eas126aer     2af7b1a6-b0ca-11f0-8994-027493648695 SUCCEEDED
-- ssp370-nae126aer     5e2e646f-b0ca-11f0-83a3-027493648695 RUNNING (very slowly: 987/1020 files by 28/10/2025 12:05pm)
+- ssp370-nae126aer     5e2e646f-b0ca-11f0-83a3-027493648695 KILLED (going nowhere in 48h: 987/1020 files by 29/10/2025 11:53am, kill time)
 - ssp370-saf126ca      04f29168-b323-11f0-91fe-027493648695 SUCCEEDED
 - ssp370-sas126aer     8b896486-b0ca-11f0-932d-0e092d85c59b SUCCEEDED
 - ssp370-sas126ca      f5c54480-b331-11f0-ba2a-0e092d85c59b KILLED
@@ -139,7 +139,11 @@ Apart form these listed below, all other transfers have succeeded with no issues
   - r4i1p1f1: SUCCEEDED - only directories, no files, on HDD!
   - r5i1p1f1 needs manual transfer (permission denied on HDD)
   - r6i1p1f1 needs manual transfer (permission denied on HDD)
-- ssp370-nae126aer (5e2e646f-b0ca-11f0-83a3-027493648695 RUNNING): very slowly: 987/1020 files = 2.29TB transferred by 28/10/2025 12:05pm)
+- ssp370-nae126aer needs manual transfer: 987/1020 files = 2.29TB transferred; most untransferred are .nfs files, so
+  only 2 actual files need manual transfer, listed below:
+  - `ssp370-nae126aer/r5i1p1f1/day/rsds/gn/v20251001/rsds_day_MIROC6_ssp370-nae126aer_r5i1p1f1_gn_20150101-21001231.nc`
+  - `ssp370-nae126aer/r2i1p1f1/Amon/ta/gn/v20250930/ta_Amon_MIROC6_ssp370-nae126aer_r2i1p1f1_gn_201501-210012.nc`
+  - see the included `nae126aer-file-list_SOURCE.txt` and  `nae126aer-file-list_DEST.txt`
 
 Total amounts trnsferred: 5.15 + 0.075 + 0.070 + 0.070 + 0.070 + 0.070 + 0.071 + 2.21 + 2.25 + 2.21 + 2.21 + 2.29 + 2.21 + 1.33 + 0.222 + 0.222 + 0.218 +0 + 0 = **20.948TB**
 
